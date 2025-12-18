@@ -1,0 +1,611 @@
+{
+  "algorithm": "gcmvl",
+  "feature_set": "mixed",
+  "model": "model3",
+  "machine_ids": [
+    3,
+    33,
+    55,
+    82,
+    19,
+    27,
+    7,
+    8,
+    84,
+    59,
+    89,
+    93,
+    52,
+    26,
+    70,
+    6,
+    5,
+    65,
+    12,
+    15
+  ],
+  "params": {
+    "tau_max": 12,
+    "sig_level": 0.05,
+    "cv": 5
+  },
+  "per_machine": {
+    "3": {
+      "nodes": [
+        "volt",
+        "rotate",
+        "pressure",
+        "vibration",
+        "err_error1",
+        "err_error2",
+        "err_error3",
+        "err_error4",
+        "err_error5",
+        "mnt_comp1",
+        "mnt_comp2",
+        "mnt_comp3",
+        "mnt_comp4",
+        "fail_comp1",
+        "fail_comp2"
+      ],
+      "edges": [],
+      "metadata": {
+        "runtime_s": 20.717299699783325
+      }
+    },
+    "33": {
+      "nodes": [
+        "volt",
+        "rotate",
+        "pressure",
+        "vibration",
+        "err_error1",
+        "err_error2",
+        "err_error3",
+        "err_error4",
+        "err_error5",
+        "mnt_comp1",
+        "mnt_comp2",
+        "mnt_comp3",
+        "mnt_comp4",
+        "fail_comp1",
+        "fail_comp2",
+        "fail_comp4"
+      ],
+      "edges": [],
+      "metadata": {
+        "runtime_s": 19.990579843521118
+      }
+    },
+    "55": {
+      "nodes": [
+        "volt",
+        "rotate",
+        "pressure",
+        "vibration",
+        "err_error1",
+        "err_error2",
+        "err_error3",
+        "err_error4",
+        "err_error5",
+        "mnt_comp1",
+        "mnt_comp2",
+        "mnt_comp3",
+        "mnt_comp4",
+        "fail_comp1",
+        "fail_comp2",
+        "fail_comp4"
+      ],
+      "edges": [],
+      "metadata": {
+        "runtime_s": 20.382112741470337
+      }
+    },
+    "82": {
+      "nodes": [
+        "volt",
+        "rotate",
+        "pressure",
+        "vibration",
+        "err_error1",
+        "err_error2",
+        "err_error3",
+        "err_error4",
+        "err_error5",
+        "mnt_comp1",
+        "mnt_comp2",
+        "mnt_comp3",
+        "mnt_comp4",
+        "fail_comp1",
+        "fail_comp2"
+      ],
+      "edges": [],
+      "metadata": {
+        "runtime_s": 17.461967706680298
+      }
+    },
+    "19": {
+      "nodes": [
+        "volt",
+        "rotate",
+        "pressure",
+        "vibration",
+        "err_error1",
+        "err_error2",
+        "err_error3",
+        "err_error4",
+        "err_error5",
+        "mnt_comp1",
+        "mnt_comp2",
+        "mnt_comp3",
+        "mnt_comp4",
+        "fail_comp1",
+        "fail_comp4"
+      ],
+      "edges": [
+        {
+          "u": "err_error2",
+          "v": "vibration",
+          "ep_u": "TAIL",
+          "ep_v": "ARROW"
+        },
+        {
+          "u": "err_error4",
+          "v": "vibration",
+          "ep_u": "TAIL",
+          "ep_v": "ARROW"
+        },
+        {
+          "u": "err_error5",
+          "v": "vibration",
+          "ep_u": "TAIL",
+          "ep_v": "ARROW"
+        },
+        {
+          "u": "mnt_comp1",
+          "v": "vibration",
+          "ep_u": "TAIL",
+          "ep_v": "ARROW"
+        },
+        {
+          "u": "mnt_comp2",
+          "v": "vibration",
+          "ep_u": "TAIL",
+          "ep_v": "ARROW"
+        },
+        {
+          "u": "mnt_comp4",
+          "v": "vibration",
+          "ep_u": "TAIL",
+          "ep_v": "ARROW"
+        }
+      ],
+      "metadata": {
+        "runtime_s": 14.611464977264404
+      }
+    },
+    "27": {
+      "nodes": [
+        "volt",
+        "rotate",
+        "pressure",
+        "vibration",
+        "err_error1",
+        "err_error2",
+        "err_error3",
+        "err_error4",
+        "err_error5",
+        "mnt_comp1",
+        "mnt_comp2",
+        "mnt_comp3",
+        "mnt_comp4",
+        "fail_comp1",
+        "fail_comp2"
+      ],
+      "edges": [],
+      "metadata": {
+        "runtime_s": 20.05749011039734
+      }
+    },
+    "7": {
+      "nodes": [
+        "volt",
+        "rotate",
+        "pressure",
+        "vibration",
+        "err_error1",
+        "err_error2",
+        "err_error3",
+        "err_error4",
+        "err_error5",
+        "mnt_comp1",
+        "mnt_comp2",
+        "mnt_comp3",
+        "mnt_comp4",
+        "fail_comp1",
+        "fail_comp2",
+        "fail_comp4"
+      ],
+      "edges": [],
+      "metadata": {
+        "runtime_s": 21.800369024276733
+      }
+    },
+    "8": {
+      "nodes": [
+        "volt",
+        "rotate",
+        "pressure",
+        "vibration",
+        "err_error1",
+        "err_error2",
+        "err_error3",
+        "err_error4",
+        "err_error5",
+        "mnt_comp1",
+        "mnt_comp2",
+        "mnt_comp3",
+        "mnt_comp4",
+        "fail_comp2",
+        "fail_comp4"
+      ],
+      "edges": [],
+      "metadata": {
+        "runtime_s": 15.272858142852783
+      }
+    },
+    "84": {
+      "nodes": [
+        "volt",
+        "rotate",
+        "pressure",
+        "vibration",
+        "err_error1",
+        "err_error2",
+        "err_error3",
+        "err_error4",
+        "err_error5",
+        "mnt_comp1",
+        "mnt_comp2",
+        "mnt_comp3",
+        "mnt_comp4",
+        "fail_comp1",
+        "fail_comp2"
+      ],
+      "edges": [],
+      "metadata": {
+        "runtime_s": 16.27544379234314
+      }
+    },
+    "59": {
+      "nodes": [
+        "volt",
+        "rotate",
+        "pressure",
+        "vibration",
+        "err_error1",
+        "err_error2",
+        "err_error3",
+        "err_error4",
+        "err_error5",
+        "mnt_comp1",
+        "mnt_comp2",
+        "mnt_comp3",
+        "mnt_comp4",
+        "fail_comp1",
+        "fail_comp2",
+        "fail_comp4"
+      ],
+      "edges": [],
+      "metadata": {
+        "runtime_s": 19.37322998046875
+      }
+    },
+    "89": {
+      "nodes": [
+        "volt",
+        "rotate",
+        "pressure",
+        "vibration",
+        "err_error1",
+        "err_error2",
+        "err_error3",
+        "err_error4",
+        "err_error5",
+        "mnt_comp1",
+        "mnt_comp2",
+        "mnt_comp3",
+        "mnt_comp4",
+        "fail_comp1",
+        "fail_comp2",
+        "fail_comp4"
+      ],
+      "edges": [],
+      "metadata": {
+        "runtime_s": 16.61359667778015
+      }
+    },
+    "93": {
+      "nodes": [
+        "volt",
+        "rotate",
+        "pressure",
+        "vibration",
+        "err_error1",
+        "err_error2",
+        "err_error3",
+        "err_error4",
+        "err_error5",
+        "mnt_comp1",
+        "mnt_comp2",
+        "mnt_comp3",
+        "mnt_comp4",
+        "fail_comp1",
+        "fail_comp2",
+        "fail_comp4"
+      ],
+      "edges": [],
+      "metadata": {
+        "runtime_s": 24.6790771484375
+      }
+    },
+    "52": {
+      "nodes": [
+        "volt",
+        "rotate",
+        "pressure",
+        "vibration",
+        "err_error1",
+        "err_error2",
+        "err_error3",
+        "err_error4",
+        "err_error5",
+        "mnt_comp1",
+        "mnt_comp2",
+        "mnt_comp3",
+        "mnt_comp4",
+        "fail_comp1",
+        "fail_comp2",
+        "fail_comp4"
+      ],
+      "edges": [],
+      "metadata": {
+        "runtime_s": 20.541680335998535
+      }
+    },
+    "26": {
+      "nodes": [
+        "volt",
+        "rotate",
+        "pressure",
+        "vibration",
+        "err_error1",
+        "err_error2",
+        "err_error3",
+        "err_error4",
+        "err_error5",
+        "mnt_comp1",
+        "mnt_comp2",
+        "mnt_comp3",
+        "mnt_comp4",
+        "fail_comp1",
+        "fail_comp2"
+      ],
+      "edges": [
+        {
+          "u": "err_error1",
+          "v": "volt",
+          "ep_u": "TAIL",
+          "ep_v": "ARROW"
+        },
+        {
+          "u": "err_error2",
+          "v": "volt",
+          "ep_u": "TAIL",
+          "ep_v": "ARROW"
+        },
+        {
+          "u": "err_error3",
+          "v": "volt",
+          "ep_u": "TAIL",
+          "ep_v": "ARROW"
+        }
+      ],
+      "metadata": {
+        "runtime_s": 19.966378450393677
+      }
+    },
+    "70": {
+      "nodes": [
+        "volt",
+        "rotate",
+        "pressure",
+        "vibration",
+        "err_error1",
+        "err_error2",
+        "err_error3",
+        "err_error4",
+        "err_error5",
+        "mnt_comp1",
+        "mnt_comp2",
+        "mnt_comp3",
+        "mnt_comp4",
+        "fail_comp1",
+        "fail_comp2"
+      ],
+      "edges": [],
+      "metadata": {
+        "runtime_s": 17.28503441810608
+      }
+    },
+    "6": {
+      "nodes": [
+        "volt",
+        "rotate",
+        "pressure",
+        "vibration",
+        "err_error1",
+        "err_error2",
+        "err_error3",
+        "err_error4",
+        "err_error5",
+        "mnt_comp1",
+        "mnt_comp2",
+        "mnt_comp3",
+        "mnt_comp4"
+      ],
+      "edges": [],
+      "metadata": {
+        "runtime_s": 13.444741487503052
+      }
+    },
+    "5": {
+      "nodes": [
+        "volt",
+        "rotate",
+        "pressure",
+        "vibration",
+        "err_error1",
+        "err_error2",
+        "err_error3",
+        "err_error4",
+        "err_error5",
+        "mnt_comp1",
+        "mnt_comp2",
+        "mnt_comp3",
+        "mnt_comp4",
+        "fail_comp1",
+        "fail_comp2"
+      ],
+      "edges": [],
+      "metadata": {
+        "runtime_s": 18.44978618621826
+      }
+    },
+    "65": {
+      "nodes": [
+        "volt",
+        "rotate",
+        "pressure",
+        "vibration",
+        "err_error1",
+        "err_error2",
+        "err_error3",
+        "err_error4",
+        "err_error5",
+        "mnt_comp1",
+        "mnt_comp2",
+        "mnt_comp3",
+        "mnt_comp4",
+        "fail_comp1",
+        "fail_comp2",
+        "fail_comp4"
+      ],
+      "edges": [],
+      "metadata": {
+        "runtime_s": 18.906516551971436
+      }
+    },
+    "12": {
+      "nodes": [
+        "volt",
+        "rotate",
+        "pressure",
+        "vibration",
+        "err_error1",
+        "err_error2",
+        "err_error3",
+        "err_error4",
+        "err_error5",
+        "mnt_comp1",
+        "mnt_comp2",
+        "mnt_comp3",
+        "mnt_comp4",
+        "fail_comp1",
+        "fail_comp2"
+      ],
+      "edges": [],
+      "metadata": {
+        "runtime_s": 18.592674732208252
+      }
+    },
+    "15": {
+      "nodes": [
+        "volt",
+        "rotate",
+        "pressure",
+        "vibration",
+        "err_error1",
+        "err_error2",
+        "err_error3",
+        "err_error4",
+        "err_error5",
+        "mnt_comp1",
+        "mnt_comp2",
+        "mnt_comp3",
+        "mnt_comp4",
+        "fail_comp1",
+        "fail_comp2",
+        "fail_comp4"
+      ],
+      "edges": [],
+      "metadata": {
+        "runtime_s": 21.352364778518677
+      }
+    }
+  },
+  "aggregate": {
+    "nodes": [
+      "err_error1",
+      "err_error2",
+      "err_error3",
+      "err_error4",
+      "err_error5",
+      "fail_comp1",
+      "fail_comp2",
+      "fail_comp4",
+      "mnt_comp1",
+      "mnt_comp2",
+      "mnt_comp3",
+      "mnt_comp4",
+      "pressure",
+      "rotate",
+      "vibration",
+      "volt"
+    ],
+    "edges": [],
+    "metadata": {
+      "aggregation": {
+        "n_graphs": 20,
+        "min_support": 8,
+        "edge_support": {
+          "err_error2|vibration|TAIL|ARROW": 1,
+          "err_error4|vibration|TAIL|ARROW": 1,
+          "err_error5|vibration|TAIL|ARROW": 1,
+          "mnt_comp1|vibration|TAIL|ARROW": 1,
+          "mnt_comp2|vibration|TAIL|ARROW": 1,
+          "mnt_comp4|vibration|TAIL|ARROW": 1,
+          "err_error1|volt|TAIL|ARROW": 1,
+          "err_error2|volt|TAIL|ARROW": 1,
+          "err_error3|volt|TAIL|ARROW": 1
+        }
+      }
+    }
+  },
+  "aggregate_meta": {
+    "min_support": 8,
+    "errors": {},
+    "n_graphs_ok": 20,
+    "edge_support": {
+      "('err_error2', 'vibration', 'TAIL', 'ARROW')": 1,
+      "('err_error4', 'vibration', 'TAIL', 'ARROW')": 1,
+      "('err_error5', 'vibration', 'TAIL', 'ARROW')": 1,
+      "('mnt_comp1', 'vibration', 'TAIL', 'ARROW')": 1,
+      "('mnt_comp2', 'vibration', 'TAIL', 'ARROW')": 1,
+      "('mnt_comp4', 'vibration', 'TAIL', 'ARROW')": 1,
+      "('err_error1', 'volt', 'TAIL', 'ARROW')": 1,
+      "('err_error2', 'volt', 'TAIL', 'ARROW')": 1,
+      "('err_error3', 'volt', 'TAIL', 'ARROW')": 1
+    }
+  }
+}

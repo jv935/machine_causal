@@ -1,0 +1,29 @@
+digraph G {
+  graph [rankdir=LR, bgcolor="white"];
+  node  [shape=box, style="rounded,filled", fillcolor="white", color="black", fontname="Helvetica"];
+  edge  [color="black", penwidth=1.2, fontname="Helvetica"];
+  labelloc="t"; label="model=model4/cbnb_w_mixed.json [aggregate]"; fontsize=16;
+  "err_error1";
+  "err_error2";
+  "err_error3";
+  "err_error4";
+  "err_error5";
+  "fail_comp1";
+  "fail_comp2";
+  "fail_comp4";
+  "mnt_comp1";
+  "mnt_comp2";
+  "mnt_comp3";
+  "mnt_comp4";
+  "pressure";
+  "rotate";
+  "vibration";
+  "volt";
+  "err_error3" -> "rotate" [dir=both, arrowtail=none, arrowhead=normal];
+  "volt" -> "err_error4" [dir=both, arrowtail=none, arrowhead=normal];
+  "fail_comp1" -> "mnt_comp1" [dir=both, arrowtail=none, arrowhead=normal];
+  "fail_comp2" -> "mnt_comp2" [dir=both, arrowtail=none, arrowhead=normal];
+  "rotate" -> "fail_comp2" [dir=both, arrowtail=none, arrowhead=normal];
+  "vibration" -> "rotate" [dir=both, arrowtail=none, arrowhead=normal];
+  "rotate" -> "volt" [dir=both, arrowtail=none, arrowhead=normal];
+}

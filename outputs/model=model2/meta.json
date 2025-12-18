@@ -1,0 +1,53 @@
+{
+  "model": "model2",
+  "machine_ids": [
+    11,
+    20,
+    21,
+    40,
+    47,
+    54,
+    69,
+    71,
+    73,
+    76,
+    87,
+    90,
+    94,
+    95,
+    96,
+    97,
+    98
+  ],
+  "tau_max": 12,
+  "sig_level": 0.05,
+  "max_rows_per_machine": null,
+  "n_vars_mixed": 17,
+  "n_vars_telemetry": 4,
+  "telemetry_cols_present": [
+    "volt",
+    "rotate",
+    "pressure",
+    "vibration"
+  ],
+  "col_types": {
+    "volt": 0,
+    "rotate": 0,
+    "pressure": 0,
+    "vibration": 0,
+    "err_error1": 1,
+    "err_error2": 1,
+    "err_error3": 1,
+    "err_error4": 1,
+    "err_error5": 1,
+    "mnt_comp1": 1,
+    "mnt_comp2": 1,
+    "mnt_comp3": 1,
+    "mnt_comp4": 1,
+    "fail_comp1": 1,
+    "fail_comp2": 1,
+    "fail_comp3": 1,
+    "fail_comp4": 1,
+    "age": 0
+  }
+}

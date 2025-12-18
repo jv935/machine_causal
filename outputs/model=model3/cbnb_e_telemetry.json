@@ -1,0 +1,448 @@
+{
+  "algorithm": "cbnb_e",
+  "feature_set": "telemetry",
+  "model": "model3",
+  "machine_ids": [
+    3,
+    33,
+    55,
+    82,
+    19,
+    27,
+    7,
+    8,
+    84,
+    59,
+    89,
+    93,
+    52,
+    26,
+    70,
+    6,
+    5,
+    65,
+    12,
+    15
+  ],
+  "params": {
+    "tau_max": 12,
+    "sig_level": 0.05
+  },
+  "per_machine": {
+    "3": {
+      "nodes": [
+        "volt",
+        "rotate",
+        "pressure",
+        "vibration"
+      ],
+      "edges": [],
+      "metadata": {
+        "runtime_s": 18.83550262451172
+      }
+    },
+    "33": {
+      "nodes": [
+        "volt",
+        "rotate",
+        "pressure",
+        "vibration"
+      ],
+      "edges": [
+        {
+          "u": "volt",
+          "v": "rotate",
+          "ep_u": "TAIL",
+          "ep_v": "ARROW"
+        },
+        {
+          "u": "pressure",
+          "v": "rotate",
+          "ep_u": "TAIL",
+          "ep_v": "ARROW"
+        }
+      ],
+      "metadata": {
+        "runtime_s": 18.42469596862793
+      }
+    },
+    "55": {
+      "nodes": [
+        "volt",
+        "rotate",
+        "pressure",
+        "vibration"
+      ],
+      "edges": [],
+      "metadata": {
+        "runtime_s": 9.489042043685913
+      }
+    },
+    "82": {
+      "nodes": [
+        "volt",
+        "rotate",
+        "pressure",
+        "vibration"
+      ],
+      "edges": [
+        {
+          "u": "volt",
+          "v": "pressure",
+          "ep_u": "TAIL",
+          "ep_v": "ARROW"
+        },
+        {
+          "u": "vibration",
+          "v": "pressure",
+          "ep_u": "TAIL",
+          "ep_v": "ARROW"
+        }
+      ],
+      "metadata": {
+        "runtime_s": 1.9487242698669434
+      }
+    },
+    "19": {
+      "nodes": [
+        "volt",
+        "rotate",
+        "pressure",
+        "vibration"
+      ],
+      "edges": [],
+      "metadata": {
+        "runtime_s": 0.5977993011474609
+      }
+    },
+    "27": {
+      "nodes": [
+        "volt",
+        "rotate",
+        "pressure",
+        "vibration"
+      ],
+      "edges": [
+        {
+          "u": "rotate",
+          "v": "pressure",
+          "ep_u": "TAIL",
+          "ep_v": "ARROW"
+        }
+      ],
+      "metadata": {
+        "runtime_s": 0.46727490425109863
+      }
+    },
+    "7": {
+      "nodes": [
+        "volt",
+        "rotate",
+        "pressure",
+        "vibration"
+      ],
+      "edges": [],
+      "metadata": {
+        "runtime_s": 0.30312275886535645
+      }
+    },
+    "8": {
+      "nodes": [
+        "volt",
+        "rotate",
+        "pressure",
+        "vibration"
+      ],
+      "edges": [],
+      "metadata": {
+        "runtime_s": 0.44215846061706543
+      }
+    },
+    "84": {
+      "nodes": [
+        "volt",
+        "rotate",
+        "pressure",
+        "vibration"
+      ],
+      "edges": [
+        {
+          "u": "vibration",
+          "v": "rotate",
+          "ep_u": "TAIL",
+          "ep_v": "ARROW"
+        }
+      ],
+      "metadata": {
+        "runtime_s": 0.9312002658843994
+      }
+    },
+    "59": {
+      "nodes": [
+        "volt",
+        "rotate",
+        "pressure",
+        "vibration"
+      ],
+      "edges": [
+        {
+          "u": "volt",
+          "v": "pressure",
+          "ep_u": "TAIL",
+          "ep_v": "ARROW"
+        },
+        {
+          "u": "volt",
+          "v": "vibration",
+          "ep_u": "TAIL",
+          "ep_v": "ARROW"
+        },
+        {
+          "u": "pressure",
+          "v": "rotate",
+          "ep_u": "TAIL",
+          "ep_v": "ARROW"
+        },
+        {
+          "u": "vibration",
+          "v": "rotate",
+          "ep_u": "TAIL",
+          "ep_v": "ARROW"
+        }
+      ],
+      "metadata": {
+        "runtime_s": 0.9302661418914795
+      }
+    },
+    "89": {
+      "nodes": [
+        "volt",
+        "rotate",
+        "pressure",
+        "vibration"
+      ],
+      "edges": [],
+      "metadata": {
+        "runtime_s": 0.4657156467437744
+      }
+    },
+    "93": {
+      "nodes": [
+        "volt",
+        "rotate",
+        "pressure",
+        "vibration"
+      ],
+      "edges": [],
+      "metadata": {
+        "runtime_s": 0.24479413032531738
+      }
+    },
+    "52": {
+      "nodes": [
+        "volt",
+        "rotate",
+        "pressure",
+        "vibration"
+      ],
+      "edges": [
+        {
+          "u": "vibration",
+          "v": "volt",
+          "ep_u": "TAIL",
+          "ep_v": "ARROW"
+        }
+      ],
+      "metadata": {
+        "runtime_s": 0.5814995765686035
+      }
+    },
+    "26": {
+      "nodes": [
+        "volt",
+        "rotate",
+        "pressure",
+        "vibration"
+      ],
+      "edges": [],
+      "metadata": {
+        "runtime_s": 0.4987940788269043
+      }
+    },
+    "70": {
+      "nodes": [
+        "volt",
+        "rotate",
+        "pressure",
+        "vibration"
+      ],
+      "edges": [
+        {
+          "u": "volt",
+          "v": "vibration",
+          "ep_u": "TAIL",
+          "ep_v": "ARROW"
+        },
+        {
+          "u": "rotate",
+          "v": "pressure",
+          "ep_u": "TAIL",
+          "ep_v": "ARROW"
+        }
+      ],
+      "metadata": {
+        "runtime_s": 0.42163848876953125
+      }
+    },
+    "6": {
+      "nodes": [
+        "volt",
+        "rotate",
+        "pressure",
+        "vibration"
+      ],
+      "edges": [
+        {
+          "u": "vibration",
+          "v": "volt",
+          "ep_u": "TAIL",
+          "ep_v": "ARROW"
+        },
+        {
+          "u": "rotate",
+          "v": "pressure",
+          "ep_u": "ARROW",
+          "ep_v": "ARROW"
+        }
+      ],
+      "metadata": {
+        "runtime_s": 0.6052160263061523
+      }
+    },
+    "5": {
+      "nodes": [
+        "volt",
+        "rotate",
+        "pressure",
+        "vibration"
+      ],
+      "edges": [
+        {
+          "u": "vibration",
+          "v": "rotate",
+          "ep_u": "TAIL",
+          "ep_v": "ARROW"
+        },
+        {
+          "u": "vibration",
+          "v": "pressure",
+          "ep_u": "TAIL",
+          "ep_v": "ARROW"
+        }
+      ],
+      "metadata": {
+        "runtime_s": 0.4302942752838135
+      }
+    },
+    "65": {
+      "nodes": [
+        "volt",
+        "rotate",
+        "pressure",
+        "vibration"
+      ],
+      "edges": [],
+      "metadata": {
+        "runtime_s": 0.33211517333984375
+      }
+    },
+    "12": {
+      "nodes": [
+        "volt",
+        "rotate",
+        "pressure",
+        "vibration"
+      ],
+      "edges": [
+        {
+          "u": "rotate",
+          "v": "vibration",
+          "ep_u": "TAIL",
+          "ep_v": "ARROW"
+        }
+      ],
+      "metadata": {
+        "runtime_s": 0.3083338737487793
+      }
+    },
+    "15": {
+      "nodes": [
+        "volt",
+        "rotate",
+        "pressure",
+        "vibration"
+      ],
+      "edges": [
+        {
+          "u": "pressure",
+          "v": "rotate",
+          "ep_u": "TAIL",
+          "ep_v": "ARROW"
+        },
+        {
+          "u": "vibration",
+          "v": "rotate",
+          "ep_u": "TAIL",
+          "ep_v": "ARROW"
+        }
+      ],
+      "metadata": {
+        "runtime_s": 0.8263955116271973
+      }
+    }
+  },
+  "aggregate": {
+    "nodes": [
+      "pressure",
+      "rotate",
+      "vibration",
+      "volt"
+    ],
+    "edges": [],
+    "metadata": {
+      "aggregation": {
+        "n_graphs": 20,
+        "min_support": 8,
+        "edge_support": {
+          "volt|rotate|TAIL|ARROW": 1,
+          "pressure|rotate|TAIL|ARROW": 3,
+          "volt|pressure|TAIL|ARROW": 2,
+          "vibration|pressure|TAIL|ARROW": 2,
+          "rotate|pressure|TAIL|ARROW": 2,
+          "vibration|rotate|TAIL|ARROW": 4,
+          "volt|vibration|TAIL|ARROW": 2,
+          "vibration|volt|TAIL|ARROW": 2,
+          "rotate|pressure|ARROW|ARROW": 1,
+          "rotate|vibration|TAIL|ARROW": 1
+        }
+      }
+    }
+  },
+  "aggregate_meta": {
+    "min_support": 8,
+    "errors": {},
+    "n_graphs_ok": 20,
+    "edge_support": {
+      "('volt', 'rotate', 'TAIL', 'ARROW')": 1,
+      "('pressure', 'rotate', 'TAIL', 'ARROW')": 3,
+      "('volt', 'pressure', 'TAIL', 'ARROW')": 2,
+      "('vibration', 'pressure', 'TAIL', 'ARROW')": 2,
+      "('rotate', 'pressure', 'TAIL', 'ARROW')": 2,
+      "('vibration', 'rotate', 'TAIL', 'ARROW')": 4,
+      "('volt', 'vibration', 'TAIL', 'ARROW')": 2,
+      "('vibration', 'volt', 'TAIL', 'ARROW')": 2,
+      "('rotate', 'pressure', 'ARROW', 'ARROW')": 1,
+      "('rotate', 'vibration', 'TAIL', 'ARROW')": 1
+    }
+  }
+}

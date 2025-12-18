@@ -1,0 +1,71 @@
+{
+  "algorithm": "cbnb_e",
+  "feature_set": "mixed",
+  "model": "model2",
+  "machine_ids": [
+    11,
+    20,
+    21,
+    40,
+    47,
+    54,
+    69,
+    71,
+    73,
+    76,
+    87,
+    90,
+    94,
+    95,
+    96,
+    97,
+    98
+  ],
+  "params": {
+    "tau_max": 12,
+    "sig_level": 0.05
+  },
+  "per_machine": {
+    "11": null,
+    "20": null,
+    "21": null,
+    "40": null,
+    "47": null,
+    "54": null,
+    "69": null,
+    "71": null,
+    "73": null,
+    "76": null,
+    "87": null,
+    "90": null,
+    "94": null,
+    "95": null,
+    "96": null,
+    "97": null,
+    "98": null
+  },
+  "aggregate": null,
+  "aggregate_meta": {
+    "min_support": 8,
+    "errors": {
+      "11": "UFuncTypeError: Cannot cast ufunc 'subtract' output from dtype('float64') to dtype('int16') with casting rule 'same_kind'",
+      "20": "UFuncTypeError: Cannot cast ufunc 'subtract' output from dtype('float64') to dtype('int16') with casting rule 'same_kind'",
+      "21": "UFuncTypeError: Cannot cast ufunc 'subtract' output from dtype('float64') to dtype('int16') with casting rule 'same_kind'",
+      "40": "UFuncTypeError: Cannot cast ufunc 'subtract' output from dtype('float64') to dtype('int16') with casting rule 'same_kind'",
+      "47": "UFuncTypeError: Cannot cast ufunc 'subtract' output from dtype('float64') to dtype('int16') with casting rule 'same_kind'",
+      "54": "UFuncTypeError: Cannot cast ufunc 'subtract' output from dtype('float64') to dtype('int16') with casting rule 'same_kind'",
+      "69": "UFuncTypeError: Cannot cast ufunc 'subtract' output from dtype('float64') to dtype('int16') with casting rule 'same_kind'",
+      "71": "UFuncTypeError: Cannot cast ufunc 'subtract' output from dtype('float64') to dtype('int16') with casting rule 'same_kind'",
+      "73": "UFuncTypeError: Cannot cast ufunc 'subtract' output from dtype('float64') to dtype('int16') with casting rule 'same_kind'",
+      "76": "UFuncTypeError: Cannot cast ufunc 'subtract' output from dtype('float64') to dtype('int16') with casting rule 'same_kind'",
+      "87": "UFuncTypeError: Cannot cast ufunc 'subtract' output from dtype('float64') to dtype('int16') with casting rule 'same_kind'",
+      "90": "UFuncTypeError: Cannot cast ufunc 'subtract' output from dtype('float64') to dtype('int16') with casting rule 'same_kind'",
+      "94": "UFuncTypeError: Cannot cast ufunc 'subtract' output from dtype('float64') to dtype('int16') with casting rule 'same_kind'",
+      "95": "UFuncTypeError: Cannot cast ufunc 'subtract' output from dtype('float64') to dtype('int16') with casting rule 'same_kind'",
+      "96": "UFuncTypeError: Cannot cast ufunc 'subtract' output from dtype('float64') to dtype('int16') with casting rule 'same_kind'",
+      "97": "UFuncTypeError: Cannot cast ufunc 'subtract' output from dtype('float64') to dtype('int16') with casting rule 'same_kind'",
+      "98": "UFuncTypeError: Cannot cast ufunc 'subtract' output from dtype('float64') to dtype('int16') with casting rule 'same_kind'"
+    },
+    "n_graphs_ok": 0
+  }
+}

@@ -1,0 +1,22 @@
+digraph G {
+  graph [rankdir=LR, bgcolor="white"];
+  node  [shape=box, style="rounded,filled", fillcolor="white", color="black", fontname="Helvetica"];
+  edge  [color="black", penwidth=1.2, fontname="Helvetica"];
+  labelloc="t"; label="model=model3/gcmvl_mixed.json [machine 55]"; fontsize=16;
+  "volt";
+  "rotate";
+  "pressure";
+  "vibration";
+  "err_error1";
+  "err_error2";
+  "err_error3";
+  "err_error4";
+  "err_error5";
+  "mnt_comp1";
+  "mnt_comp2";
+  "mnt_comp3";
+  "mnt_comp4";
+  "fail_comp1";
+  "fail_comp2";
+  "fail_comp4";
+}

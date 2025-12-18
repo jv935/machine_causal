@@ -1,0 +1,12 @@
+digraph G {
+  graph [rankdir=LR, bgcolor="white"];
+  node  [shape=box, style="rounded,filled", fillcolor="white", color="black", fontname="Helvetica"];
+  edge  [color="black", penwidth=1.2, fontname="Helvetica"];
+  labelloc="t"; label="model=model4/nbcb_e_telemetry.json [machine 77]"; fontsize=16;
+  "volt";
+  "rotate";
+  "pressure";
+  "vibration";
+  "vibration" -> "volt" [dir=both, arrowtail=none, arrowhead=normal];
+  "pressure" -> "rotate" [dir=both, arrowtail=none, arrowhead=normal];
+}

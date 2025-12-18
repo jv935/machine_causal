@@ -1,1 +1,8 @@
 tigramite
+causal-learn
+ipykernel
+numpy
+pandas
+scikit-learn
+dcor
+lingam

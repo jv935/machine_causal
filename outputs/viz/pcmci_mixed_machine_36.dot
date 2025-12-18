@@ -1,0 +1,34 @@
+digraph G {
+  graph [rankdir=LR, bgcolor="white"];
+  node  [shape=box, style="rounded,filled", fillcolor="white", color="black", fontname="Helvetica"];
+  edge  [color="black", penwidth=1.2, fontname="Helvetica"];
+  labelloc="t"; label="model=model4/pcmci_mixed.json [machine 36]"; fontsize=16;
+  "volt";
+  "rotate";
+  "pressure";
+  "vibration";
+  "err_error1";
+  "err_error2";
+  "err_error3";
+  "err_error4";
+  "err_error5";
+  "mnt_comp1";
+  "mnt_comp2";
+  "mnt_comp3";
+  "mnt_comp4";
+  "fail_comp1";
+  "fail_comp2";
+  "volt" -> "rotate" [dir=both, arrowtail=none, arrowhead=normal];
+  "vibration" -> "volt" [dir=both, arrowtail=none, arrowhead=normal];
+  "err_error1" -> "volt" [dir=both, arrowtail=none, arrowhead=normal];
+  "volt" -> "err_error4" [dir=both, arrowtail=none, arrowhead=normal];
+  "volt" -> "mnt_comp3" [dir=both, arrowtail=none, arrowhead=normal];
+  "fail_comp1" -> "volt" [dir=both, arrowtail=none, arrowhead=normal];
+  "rotate" -> "pressure" [dir=both, arrowtail=none, arrowhead=normal];
+  "rotate" -> "vibration" [dir=both, arrowtail=none, arrowhead=normal];
+  "err_error4" -> "rotate" [dir=both, arrowtail=none, arrowhead=normal];
+  "rotate" -> "fail_comp2" [dir=both, arrowtail=none, arrowhead=normal];
+  "vibration" -> "pressure" [dir=both, arrowtail=none, arrowhead=normal];
+  "vibration" -> "err_error2" [dir=both, arrowtail=none, arrowhead=normal];
+  "vibration" -> "err_error4" [dir=both, arrowtail=none, arrowhead=normal];
+}

@@ -8,7 +8,6 @@ Import from here to avoid confusion:
     from graphs_fixed import save_graph_json, load_graph_json, aggregate_graphs
 """
 
-# Fixed: Import from actual file name (graph_io.py, not graph_io_fixed.py)
 from graph_io import (
     generalgraph_to_dict,
     dict_to_generalgraph,
@@ -18,7 +17,6 @@ from graph_io import (
     AggregateInfo,
 )
 
-# Fixed: Make graph_utils optional since it wasn't provided
 try:
     from graph_utils import generalgraph_to_dot, draw_generalgraph
 except ImportError:
