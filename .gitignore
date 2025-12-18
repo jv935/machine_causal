@@ -188,6 +188,8 @@ pyrightconfig.json
 .history
 .ionide
 
+.claude
+
 Algorithms/
 codeTimino/
 Hybrids_of_CB_and_NB_for_Time_Series/

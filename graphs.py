@@ -20,7 +20,6 @@ from graph_io import (
 try:
     from graph_utils import generalgraph_to_dot, draw_generalgraph
 except ImportError:
-    # graph_utils.py not available - provide stub functions
     def generalgraph_to_dot(g, **kwargs):
         raise NotImplementedError("graph_utils.py not available. Install or create it for visualization.")
     

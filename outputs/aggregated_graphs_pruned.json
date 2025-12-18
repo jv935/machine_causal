@@ -1,0 +1,1046 @@
+{
+  "cbnb_e_mixed": {
+    "nodes": [],
+    "edges": [],
+    "metadata": {
+      "total_machines": 0,
+      "n_edges_before_pruning": 0,
+      "n_edges_after_pruning": 0,
+      "min_frequency": 0.3,
+      "algorithm": "cbnb_e_mixed"
+    }
+  },
+  "cbnb_w_mixed": {
+    "nodes": [
+      "err_error1",
+      "err_error2",
+      "err_error3",
+      "err_error4",
+      "err_error5",
+      "fail_comp1",
+      "fail_comp2",
+      "fail_comp3",
+      "fail_comp4",
+      "mnt_comp1",
+      "mnt_comp2",
+      "mnt_comp3",
+      "mnt_comp4",
+      "pressure",
+      "rotate",
+      "vibration",
+      "volt"
+    ],
+    "edges": [
+      {
+        "u": "fail_comp2",
+        "v": "mnt_comp2",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.8888888888888888,
+        "count": 56,
+        "total_machines": 63
+      },
+      {
+        "u": "fail_comp1",
+        "v": "mnt_comp1",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.8095238095238095,
+        "count": 51,
+        "total_machines": 63
+      },
+      {
+        "u": "volt",
+        "v": "err_error1",
+        "ep_u": "ARROW",
+        "ep_v": "ARROW",
+        "frequency": 0.6349206349206349,
+        "count": 40,
+        "total_machines": 63
+      },
+      {
+        "u": "rotate",
+        "v": "fail_comp2",
+        "ep_u": "ARROW",
+        "ep_v": "ARROW",
+        "frequency": 0.5714285714285714,
+        "count": 36,
+        "total_machines": 63
+      },
+      {
+        "u": "err_error3",
+        "v": "err_error2",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.5555555555555556,
+        "count": 35,
+        "total_machines": 63
+      },
+      {
+        "u": "rotate",
+        "v": "err_error3",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.5238095238095238,
+        "count": 33,
+        "total_machines": 63
+      },
+      {
+        "u": "volt",
+        "v": "rotate",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.47619047619047616,
+        "count": 30,
+        "total_machines": 63
+      },
+      {
+        "u": "volt",
+        "v": "fail_comp1",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.47619047619047616,
+        "count": 30,
+        "total_machines": 63
+      },
+      {
+        "u": "fail_comp4",
+        "v": "mnt_comp4",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.47619047619047616,
+        "count": 30,
+        "total_machines": 63
+      },
+      {
+        "u": "rotate",
+        "v": "err_error2",
+        "ep_u": "ARROW",
+        "ep_v": "ARROW",
+        "frequency": 0.4444444444444444,
+        "count": 28,
+        "total_machines": 63
+      },
+      {
+        "u": "fail_comp3",
+        "v": "mnt_comp3",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.4444444444444444,
+        "count": 28,
+        "total_machines": 63
+      },
+      {
+        "u": "vibration",
+        "v": "err_error4",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.4126984126984127,
+        "count": 26,
+        "total_machines": 63
+      },
+      {
+        "u": "vibration",
+        "v": "err_error5",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.3968253968253968,
+        "count": 25,
+        "total_machines": 63
+      },
+      {
+        "u": "rotate",
+        "v": "err_error4",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.38095238095238093,
+        "count": 24,
+        "total_machines": 63
+      },
+      {
+        "u": "vibration",
+        "v": "err_error2",
+        "ep_u": "ARROW",
+        "ep_v": "ARROW",
+        "frequency": 0.38095238095238093,
+        "count": 24,
+        "total_machines": 63
+      },
+      {
+        "u": "pressure",
+        "v": "err_error4",
+        "ep_u": "ARROW",
+        "ep_v": "ARROW",
+        "frequency": 0.38095238095238093,
+        "count": 24,
+        "total_machines": 63
+      },
+      {
+        "u": "volt",
+        "v": "pressure",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.36507936507936506,
+        "count": 23,
+        "total_machines": 63
+      },
+      {
+        "u": "mnt_comp2",
+        "v": "mnt_comp4",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.36507936507936506,
+        "count": 23,
+        "total_machines": 63
+      },
+      {
+        "u": "volt",
+        "v": "err_error2",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.3492063492063492,
+        "count": 22,
+        "total_machines": 63
+      },
+      {
+        "u": "mnt_comp1",
+        "v": "volt",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.3492063492063492,
+        "count": 22,
+        "total_machines": 63
+      },
+      {
+        "u": "rotate",
+        "v": "err_error1",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.3492063492063492,
+        "count": 22,
+        "total_machines": 63
+      },
+      {
+        "u": "err_error2",
+        "v": "err_error3",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.3333333333333333,
+        "count": 21,
+        "total_machines": 63
+      },
+      {
+        "u": "vibration",
+        "v": "rotate",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.3333333333333333,
+        "count": 21,
+        "total_machines": 63
+      },
+      {
+        "u": "volt",
+        "v": "vibration",
+        "ep_u": "ARROW",
+        "ep_v": "ARROW",
+        "frequency": 0.31746031746031744,
+        "count": 20,
+        "total_machines": 63
+      },
+      {
+        "u": "err_error5",
+        "v": "vibration",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.31746031746031744,
+        "count": 20,
+        "total_machines": 63
+      },
+      {
+        "u": "err_error3",
+        "v": "rotate",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.31746031746031744,
+        "count": 20,
+        "total_machines": 63
+      },
+      {
+        "u": "rotate",
+        "v": "err_error5",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.31746031746031744,
+        "count": 20,
+        "total_machines": 63
+      },
+      {
+        "u": "rotate",
+        "v": "pressure",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.31746031746031744,
+        "count": 20,
+        "total_machines": 63
+      },
+      {
+        "u": "fail_comp2",
+        "v": "mnt_comp4",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.31746031746031744,
+        "count": 20,
+        "total_machines": 63
+      },
+      {
+        "u": "volt",
+        "v": "err_error5",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.30158730158730157,
+        "count": 19,
+        "total_machines": 63
+      },
+      {
+        "u": "mnt_comp1",
+        "v": "mnt_comp4",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.30158730158730157,
+        "count": 19,
+        "total_machines": 63
+      },
+      {
+        "u": "volt",
+        "v": "err_error4",
+        "ep_u": "ARROW",
+        "ep_v": "ARROW",
+        "frequency": 0.30158730158730157,
+        "count": 19,
+        "total_machines": 63
+      },
+      {
+        "u": "vibration",
+        "v": "err_error1",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.30158730158730157,
+        "count": 19,
+        "total_machines": 63
+      }
+    ],
+    "metadata": {
+      "total_machines": 63,
+      "n_edges_before_pruning": 240,
+      "n_edges_after_pruning": 33,
+      "min_frequency": 0.3,
+      "algorithm": "cbnb_w_mixed"
+    }
+  },
+  "gcmvl_mixed": {
+    "nodes": [
+      "err_error1",
+      "err_error2",
+      "err_error3",
+      "err_error4",
+      "err_error5",
+      "fail_comp1",
+      "fail_comp2",
+      "fail_comp3",
+      "fail_comp4",
+      "mnt_comp1",
+      "mnt_comp2",
+      "mnt_comp3",
+      "mnt_comp4",
+      "pressure",
+      "rotate",
+      "vibration",
+      "volt"
+    ],
+    "edges": [],
+    "metadata": {
+      "total_machines": 73,
+      "n_edges_before_pruning": 37,
+      "n_edges_after_pruning": 0,
+      "min_frequency": 0.3,
+      "algorithm": "gcmvl_mixed"
+    }
+  },
+  "nbcb_e_mixed": {
+    "nodes": [],
+    "edges": [],
+    "metadata": {
+      "total_machines": 0,
+      "n_edges_before_pruning": 0,
+      "n_edges_after_pruning": 0,
+      "min_frequency": 0.3,
+      "algorithm": "nbcb_e_mixed"
+    }
+  },
+  "nbcb_w_mixed": {
+    "nodes": [
+      "err_error1",
+      "err_error2",
+      "err_error3",
+      "err_error4",
+      "err_error5",
+      "fail_comp1",
+      "fail_comp2",
+      "fail_comp3",
+      "fail_comp4",
+      "mnt_comp1",
+      "mnt_comp2",
+      "mnt_comp3",
+      "mnt_comp4",
+      "pressure",
+      "rotate",
+      "vibration",
+      "volt"
+    ],
+    "edges": [
+      {
+        "u": "fail_comp2",
+        "v": "mnt_comp2",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.8870967741935484,
+        "count": 55,
+        "total_machines": 62
+      },
+      {
+        "u": "rotate",
+        "v": "fail_comp2",
+        "ep_u": "ARROW",
+        "ep_v": "ARROW",
+        "frequency": 0.8548387096774194,
+        "count": 53,
+        "total_machines": 62
+      },
+      {
+        "u": "fail_comp1",
+        "v": "mnt_comp1",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.8064516129032258,
+        "count": 50,
+        "total_machines": 62
+      },
+      {
+        "u": "volt",
+        "v": "fail_comp1",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.6774193548387096,
+        "count": 42,
+        "total_machines": 62
+      },
+      {
+        "u": "rotate",
+        "v": "err_error3",
+        "ep_u": "ARROW",
+        "ep_v": "ARROW",
+        "frequency": 0.6612903225806451,
+        "count": 41,
+        "total_machines": 62
+      },
+      {
+        "u": "volt",
+        "v": "err_error1",
+        "ep_u": "ARROW",
+        "ep_v": "ARROW",
+        "frequency": 0.6290322580645161,
+        "count": 39,
+        "total_machines": 62
+      },
+      {
+        "u": "err_error3",
+        "v": "err_error2",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.5483870967741935,
+        "count": 34,
+        "total_machines": 62
+      },
+      {
+        "u": "rotate",
+        "v": "err_error2",
+        "ep_u": "ARROW",
+        "ep_v": "ARROW",
+        "frequency": 0.532258064516129,
+        "count": 33,
+        "total_machines": 62
+      },
+      {
+        "u": "fail_comp4",
+        "v": "mnt_comp4",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.4838709677419355,
+        "count": 30,
+        "total_machines": 62
+      },
+      {
+        "u": "volt",
+        "v": "rotate",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.46774193548387094,
+        "count": 29,
+        "total_machines": 62
+      },
+      {
+        "u": "vibration",
+        "v": "err_error2",
+        "ep_u": "ARROW",
+        "ep_v": "ARROW",
+        "frequency": 0.45161290322580644,
+        "count": 28,
+        "total_machines": 62
+      },
+      {
+        "u": "vibration",
+        "v": "err_error5",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.45161290322580644,
+        "count": 28,
+        "total_machines": 62
+      },
+      {
+        "u": "vibration",
+        "v": "err_error4",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.41935483870967744,
+        "count": 26,
+        "total_machines": 62
+      },
+      {
+        "u": "fail_comp3",
+        "v": "mnt_comp3",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.41935483870967744,
+        "count": 26,
+        "total_machines": 62
+      },
+      {
+        "u": "vibration",
+        "v": "fail_comp4",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.4032258064516129,
+        "count": 25,
+        "total_machines": 62
+      },
+      {
+        "u": "rotate",
+        "v": "err_error4",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.3870967741935484,
+        "count": 24,
+        "total_machines": 62
+      },
+      {
+        "u": "pressure",
+        "v": "fail_comp3",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.3870967741935484,
+        "count": 24,
+        "total_machines": 62
+      },
+      {
+        "u": "mnt_comp2",
+        "v": "mnt_comp4",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.3870967741935484,
+        "count": 24,
+        "total_machines": 62
+      },
+      {
+        "u": "mnt_comp1",
+        "v": "volt",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.3709677419354839,
+        "count": 23,
+        "total_machines": 62
+      },
+      {
+        "u": "pressure",
+        "v": "err_error4",
+        "ep_u": "ARROW",
+        "ep_v": "ARROW",
+        "frequency": 0.3709677419354839,
+        "count": 23,
+        "total_machines": 62
+      },
+      {
+        "u": "volt",
+        "v": "pressure",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.3709677419354839,
+        "count": 23,
+        "total_machines": 62
+      },
+      {
+        "u": "volt",
+        "v": "err_error2",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.3548387096774194,
+        "count": 22,
+        "total_machines": 62
+      },
+      {
+        "u": "rotate",
+        "v": "err_error1",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.3548387096774194,
+        "count": 22,
+        "total_machines": 62
+      },
+      {
+        "u": "mnt_comp1",
+        "v": "mnt_comp4",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.3548387096774194,
+        "count": 22,
+        "total_machines": 62
+      },
+      {
+        "u": "vibration",
+        "v": "err_error3",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.3387096774193548,
+        "count": 21,
+        "total_machines": 62
+      },
+      {
+        "u": "err_error2",
+        "v": "err_error3",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.3387096774193548,
+        "count": 21,
+        "total_machines": 62
+      },
+      {
+        "u": "rotate",
+        "v": "fail_comp1",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.3387096774193548,
+        "count": 21,
+        "total_machines": 62
+      },
+      {
+        "u": "volt",
+        "v": "vibration",
+        "ep_u": "ARROW",
+        "ep_v": "ARROW",
+        "frequency": 0.3225806451612903,
+        "count": 20,
+        "total_machines": 62
+      },
+      {
+        "u": "volt",
+        "v": "err_error5",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.3225806451612903,
+        "count": 20,
+        "total_machines": 62
+      },
+      {
+        "u": "rotate",
+        "v": "err_error5",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.3225806451612903,
+        "count": 20,
+        "total_machines": 62
+      },
+      {
+        "u": "vibration",
+        "v": "rotate",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.3225806451612903,
+        "count": 20,
+        "total_machines": 62
+      },
+      {
+        "u": "volt",
+        "v": "err_error3",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.3225806451612903,
+        "count": 20,
+        "total_machines": 62
+      },
+      {
+        "u": "pressure",
+        "v": "err_error2",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.3225806451612903,
+        "count": 20,
+        "total_machines": 62
+      },
+      {
+        "u": "volt",
+        "v": "err_error4",
+        "ep_u": "ARROW",
+        "ep_v": "ARROW",
+        "frequency": 0.3225806451612903,
+        "count": 20,
+        "total_machines": 62
+      },
+      {
+        "u": "vibration",
+        "v": "fail_comp1",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.3064516129032258,
+        "count": 19,
+        "total_machines": 62
+      },
+      {
+        "u": "pressure",
+        "v": "err_error3",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.3064516129032258,
+        "count": 19,
+        "total_machines": 62
+      },
+      {
+        "u": "rotate",
+        "v": "pressure",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.3064516129032258,
+        "count": 19,
+        "total_machines": 62
+      },
+      {
+        "u": "mnt_comp1",
+        "v": "mnt_comp3",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.3064516129032258,
+        "count": 19,
+        "total_machines": 62
+      },
+      {
+        "u": "vibration",
+        "v": "err_error1",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.3064516129032258,
+        "count": 19,
+        "total_machines": 62
+      }
+    ],
+    "metadata": {
+      "total_machines": 62,
+      "n_edges_before_pruning": 246,
+      "n_edges_after_pruning": 39,
+      "min_frequency": 0.3,
+      "algorithm": "nbcb_w_mixed"
+    }
+  },
+  "pcmci_mixed": {
+    "nodes": [
+      "err_error1",
+      "err_error2",
+      "err_error3",
+      "err_error4",
+      "err_error5",
+      "fail_comp1",
+      "fail_comp2",
+      "fail_comp3",
+      "fail_comp4",
+      "mnt_comp1",
+      "mnt_comp2",
+      "mnt_comp3",
+      "mnt_comp4",
+      "pressure",
+      "rotate",
+      "vibration",
+      "volt"
+    ],
+    "edges": [
+      {
+        "u": "rotate",
+        "v": "volt",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.4383561643835616,
+        "count": 32,
+        "total_machines": 73
+      },
+      {
+        "u": "err_error3",
+        "v": "rotate",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.3698630136986301,
+        "count": 27,
+        "total_machines": 73
+      },
+      {
+        "u": "err_error5",
+        "v": "vibration",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.3698630136986301,
+        "count": 27,
+        "total_machines": 73
+      },
+      {
+        "u": "vibration",
+        "v": "rotate",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.3287671232876712,
+        "count": 24,
+        "total_machines": 73
+      },
+      {
+        "u": "err_error1",
+        "v": "volt",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.3150684931506849,
+        "count": 23,
+        "total_machines": 73
+      },
+      {
+        "u": "rotate",
+        "v": "fail_comp2",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.3150684931506849,
+        "count": 23,
+        "total_machines": 73
+      },
+      {
+        "u": "vibration",
+        "v": "volt",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.3013698630136986,
+        "count": 22,
+        "total_machines": 73
+      }
+    ],
+    "metadata": {
+      "total_machines": 73,
+      "n_edges_before_pruning": 121,
+      "n_edges_after_pruning": 7,
+      "min_frequency": 0.3,
+      "algorithm": "pcmci_mixed"
+    }
+  },
+  "varlingam_mixed": {
+    "nodes": [
+      "err_error1",
+      "err_error2",
+      "err_error3",
+      "err_error4",
+      "err_error5",
+      "fail_comp1",
+      "fail_comp2",
+      "fail_comp3",
+      "fail_comp4",
+      "mnt_comp1",
+      "mnt_comp2",
+      "mnt_comp3",
+      "mnt_comp4",
+      "pressure",
+      "rotate",
+      "vibration",
+      "volt"
+    ],
+    "edges": [
+      {
+        "u": "fail_comp2",
+        "v": "mnt_comp2",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.9032258064516129,
+        "count": 56,
+        "total_machines": 62
+      },
+      {
+        "u": "fail_comp1",
+        "v": "mnt_comp1",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.7903225806451613,
+        "count": 49,
+        "total_machines": 62
+      },
+      {
+        "u": "err_error3",
+        "v": "err_error2",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.5967741935483871,
+        "count": 37,
+        "total_machines": 62
+      },
+      {
+        "u": "fail_comp2",
+        "v": "mnt_comp3",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.5483870967741935,
+        "count": 34,
+        "total_machines": 62
+      },
+      {
+        "u": "fail_comp2",
+        "v": "mnt_comp4",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.5483870967741935,
+        "count": 34,
+        "total_machines": 62
+      },
+      {
+        "u": "fail_comp4",
+        "v": "mnt_comp4",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.4838709677419355,
+        "count": 30,
+        "total_machines": 62
+      },
+      {
+        "u": "fail_comp1",
+        "v": "mnt_comp4",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.43548387096774194,
+        "count": 27,
+        "total_machines": 62
+      },
+      {
+        "u": "mnt_comp2",
+        "v": "mnt_comp4",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.43548387096774194,
+        "count": 27,
+        "total_machines": 62
+      },
+      {
+        "u": "fail_comp3",
+        "v": "mnt_comp3",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.41935483870967744,
+        "count": 26,
+        "total_machines": 62
+      },
+      {
+        "u": "mnt_comp1",
+        "v": "mnt_comp4",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.41935483870967744,
+        "count": 26,
+        "total_machines": 62
+      },
+      {
+        "u": "fail_comp2",
+        "v": "mnt_comp1",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.4032258064516129,
+        "count": 25,
+        "total_machines": 62
+      },
+      {
+        "u": "mnt_comp3",
+        "v": "mnt_comp4",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.3870967741935484,
+        "count": 24,
+        "total_machines": 62
+      },
+      {
+        "u": "mnt_comp2",
+        "v": "mnt_comp3",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.3709677419354839,
+        "count": 23,
+        "total_machines": 62
+      },
+      {
+        "u": "fail_comp1",
+        "v": "mnt_comp3",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.3709677419354839,
+        "count": 23,
+        "total_machines": 62
+      },
+      {
+        "u": "mnt_comp1",
+        "v": "mnt_comp3",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.3709677419354839,
+        "count": 23,
+        "total_machines": 62
+      },
+      {
+        "u": "mnt_comp4",
+        "v": "mnt_comp3",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.3387096774193548,
+        "count": 21,
+        "total_machines": 62
+      },
+      {
+        "u": "fail_comp1",
+        "v": "mnt_comp2",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.3225806451612903,
+        "count": 20,
+        "total_machines": 62
+      },
+      {
+        "u": "mnt_comp1",
+        "v": "mnt_comp2",
+        "ep_u": "TAIL",
+        "ep_v": "ARROW",
+        "frequency": 0.3064516129032258,
+        "count": 19,
+        "total_machines": 62
+      }
+    ],
+    "metadata": {
+      "total_machines": 62,
+      "n_edges_before_pruning": 142,
+      "n_edges_after_pruning": 18,
+      "min_frequency": 0.3,
+      "algorithm": "varlingam_mixed"
+    }
+  }
+}
